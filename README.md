@@ -2,6 +2,10 @@ OVERVIEW
 
 This project uses a number of ESP32s with attached Waterproof Ultrasonic Module JSN-SR04T Distance Measuring Transducer Sensors to measure the water levels of rain water tanks situated around the property and relay the information to a Reciever ESP32.
 
+Two other projects have been created around the Water Tank Level with Lora.
+1.  Weather Clock with Water Tank Level readout.
+2.  Weather Clock with Water Tank Level readout and Wled controls.
+
 The Units located on the Water Tanks are the Slave Send Units (Send Unit)
 
 The Main Receiving Unit is called the Master Receiver Unit (MasterRecUnit)
