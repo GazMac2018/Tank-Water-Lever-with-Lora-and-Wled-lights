@@ -1,6 +1,6 @@
 OVERVIEW
 
-This project uses a number of ESP32s with attached Waterproof Ultrasonic Module JSN-SR04T Distance Measuring Transducer Sensors to measure the water levels of rain water tanks situated around the property and relay the information to a Reciever ESP32.
+The main purpose of this project uses a number of ESP32s with attached Waterproof Ultrasonic Module JSN-SR04T Distance Measuring Transducer Sensors to measure the water levels of rain water tanks situated around the property and relay the information to a Reciever ESP32.
 
 Two other projects have been created around the Water Tank Level with Lora.
 1.  Weather Clock with Water Tank Level readout.
@@ -52,6 +52,11 @@ The Header Unit is programmed to go into Sleep Mode for the period calculated by
 If the Header unit's battery voltage drops below 3.3, the unit is put into Sleep Mode for 1 hour and will continue to set the Sleep Mode every hour until the voltage is higher than 3.3 volts.
 
 The Header Unit also automatically goes into a Sleep Mode cycle every 1 hour if the MasterRecUnit is switched off or goes off-line for any reason. 
+
+This particular project includes a Weather and Clock as well as a Control for Wled lights set up for a bedside light.
+
+See Weather Clock Project for details.
+See Led Desk Light Project for details.
 
 Upon request for data from the MasterRecUnit to the other 2 SlaveSendUnit(s) named DBL Main and uDeck, the only data sent back is the distance from the top of the tank to the water level. These units will be powered by mains power through a 5v power pack and will operate 24/7.
 
